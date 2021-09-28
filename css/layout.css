@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+body, html{
+			margin:0;
+			padding:0;
+			background: black;
+
+		}
+		#main{
+			overflow:hidden;
+			margin:0 auto;
+			background:black;
+		}
+		.content{
+			float:center;
+			width:100%;
+			min-height:100%;
+    	position:relative;
+
+
+		}
+		.video{
+			align-content:center;
+			padding: 0;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			border: 1px;
+			border-style:groove;
+			border-color: blue;
+
+		}
+		.sobre h1 {
+			font-family: 'Comfortaa', cursive;
+			color: white;
+		}
+		.servicos h1 {
+			font-family: 'Comfortaa', cursive;
+			margin-top: 30px;
+			color: white;
+		}
+		.contato h1{
+			font-family: 'Comfortaa', cursive;
+			margin-top: 30px;
+			color: white;
+
+		}
+		.servicos{
+			width: 100%;
+		}
+		#menu{
+			width: 100%;
+		}
+		.form1{
+			border-radius: 10px;
+			font-family: 'Comfortaa', cursive;
+			text-align: center;
+			background-color: #00496E ;
+			margin-left: 300px;
+			margin-right: 300px	;
+		}
+
+		.form1 h1{
+			font-family: 'Comfortaa', cursive;
+			padding-top: 10px;
+			margin-top: 20px;
+			color: white;
+
+		}
+		.tec{
+			position: absolute;
+			margin-left: 200px;
+			margin-top: -30px;
+			width: 128px;
+			height: 128px;
+			text-align: left;
+		}
+		.enviar input {
+					border-radius: 5px;
+					font-family: 'Comfortaa', cursive;
+					background-color: #069;
+					height: 40px;
+					width: 150px;
+					font-weight: bold;
+					border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border: 1px solid;
+					color: #FFF;
+					cursor: pointer;
+					margin-bottom: 20px;
+					}
+		.enviar input:hover{
+			border-radius: 5px;
+			font-family: 'Comfortaa', cursive;
+			background: #0091FF;
+
+		}
+					input, textarea{
+						border-radius: 5px;
+						font-family: 'Comfortaa', cursive;
+						width: 480px;
+						padding: 10px;
+					}
+					textarea{
+						line-height: 60px
+					}
+		#logo{
+			margin-top: 10px;
+			width: 400px 100%;
+			min-height: 50%;
+			max-height: 100px;
+			height: 80%;
+		}
+		.logan{
+			width: 500px;
+			height: 100px;
+			position: relative;
+			animation-name: example;
+			animation-duration: 2s;
+
+		}
+		@keyframes example {
+			  0%   {left:0px; top:0px;}
+			  50%  {left:150px; top:0px;}
+			  100%  {left:0px; top:0px;}
+		}
+		#menu ul{
+			margin:0;
+			padding:0;
+		}
+		#menu ul li{
+			display:inline-block;
+			margin:0;
+			padding:0;
+		}
+		#menu ul li a{
+			font-family: 'Comfortaa', cursive;
+			text-decoration: none;
+			display:block;
+			padding:10px 80px;
+			color:#fff;
+		}
+		#menu a:hover{
+			color: #2980B9	;
+		}
+		.footer{
+			height:150px;
+    	position:relative ;
+			bottom: 0;
+			background:black;
+			border: 1px;
+			border-color: blue;
+			border-style:solid;
+		}
+		.footer ul{
+			bottom: 0;
+			margin:0;
+			padding:0;
+		}
+		.footer ul li{
+			bottom: 0;
+			display:inline-block;
+			zoom:1;
+			margin:0;
+			padding:0;
+		}
+		.footer  li a{
+			bottom: 0;
+			font-family: 'Comfortaa', cursive;
+			font-size: 15px;
+			text-decoration: none;
+			display:block;
+			padding:40px 50px;
+			color:white;
+		}
+		.footer a:hover{
+			bottom: 0;
+			color: #2980B9	;
+		}
+		.autor{
+			list-style: none;
+			margin-top: -50px;
+			text-decoration: none;
+
+		}
+		.menuSer,.cprint,.ccpu,.cnote{
+			position: relative;
+			padding: 0 30px;
+			display: inline-block;
+		}
+		.ccpu h1 ,.cnote h1 ,.cprint h1{
+			font-size: 15px;
+		}
+		input[type=image]{
+			width: 128px;
+			height: 128px;
+
+		}
+		input[type=image]:hover{
+			background-color: #069;
+			width: 128px;
+			height: 128px;
+
+		}
+		#div1{
+			background-color: #00496E;
+			width: 700px;
+			height: 300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			position:relative;
+		}
+		#div1 a {
+			margin-right: 15px;
+			padding: 5px;
+			border: 2px;
+			border-style:double;
+			border-color: white;
+			background-color: #00496E;
+			float: right;
+			margin-top: 100px;
+			text-align: left;
+			font-family: 'Comfortaa', cursive;
+			text-decoration: none;
+			color: white;
+		}
+		#div1 p {
+			margin-left: 10px;
+			text-align: left;
+			margin-top: 30px;
+			font-family: 'Comfortaa', cursive;
+			color: white;
+		}
+		#div2 p {
+			margin-left: 10px;
+			text-align: left;
+			margin-top: 30px;
+			font-family: 'Comfortaa', cursive;
+			color: white;
+		}
+		#div3 p {
+			margin-left: 10px;
+			text-align: left;
+			margin-top: 30px;
+			font-family: 'Comfortaa', cursive;
+			color: white;
+		}
+		#div2 a {
+			margin-right: 15px;
+			padding: 5px;
+			border: 2px;
+			border-style:double;
+			border-color: white;
+			background-color: #00496E;
+			float: right;
+			margin-top: 100px;
+			text-align: left;
+			font-family: 'Comfortaa', cursive;
+			text-decoration: none;
+			color: white;
+		}
+		#div3 a {
+			margin-right: 15px;
+			padding: 5px;
+			border: 2px;
+			border-style:double;
+			border-color: white;
+			background-color: #00496E;
+			float: right;
+			margin-top: 100px;
+			text-align: left;
+			font-family: 'Comfortaa', cursive;
+			text-decoration: none;
+			color: white;
+		}
+		#div2{
+			background-color: #00496E;
+			width: 700px;
+			height: 300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			position:relative;
+		}
+		#div3{
+			background-color: #00496E;
+			width: 700px;
+			height: 300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			position:relative;
+		}
+	.escondido{
+		display: none;
+
+	}
+	.social{
+		display: inline-block;
+		padding: 0 30px;
+		text-decoration: none;
+
+	}
+	#facebook{
+		height: 5em;
+		width: 5em;
+		text-decoration: none;
+	}
+	#whatsapp{
+		height: 5em;
+		width: 5em;
+	}
+	#youtube{
+		height: 5em;
+		width: 5em;
+	}
